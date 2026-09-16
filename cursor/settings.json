@@ -1,0 +1,105 @@
+{
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.editor.empty.hint": "hidden",
+    "[scss]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "editor.largeFileOptimizations": true,  // 大きいファイルを最適化
+    "files.watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/.git/subtree-cache/**": true,
+      "**/node_modules/*/**": true
+    },
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/.git": true
+    },
+    "custom-ui-style.preferRestart": true,
+    "custom-ui-style.electron": {
+        "transparent": true,
+        "backgroundColor": "#24273a",
+        "opacity": 1
+    },
+    "custom-ui-style.stylesheet": {
+        ".monaco-workbench": "background-color: #24273a !important;",
+        ".monaco-workbench .part.editor, .monaco-editor, .monaco-editor-background, .monaco-editor .margin": "background-color: #24273a !important;",
+        ".monaco-workbench .part.sidebar, .monaco-workbench .part.sidebar .content, .monaco-workbench .part.sidebar .monaco-list, .monaco-workbench .part.sidebar .monaco-list-rows, .monaco-workbench .part.sidebar .pane-body, .monaco-workbench .part.auxiliarybar": "background-color: #1e2030 !important;"
+    },
+    "workbench.colorCustomizations": {
+        "editor.background": "#24273a",
+        "editorGutter.background": "#24273a",
+        "sideBar.background": "#1e2030",
+        "sideBarTitle.background": "#1e2030",
+        "sideBarSectionHeader.background": "#1e2030",
+        "list.background": "#1e2030",
+        "list.inactiveSelectionBackground": "#363a4f4d",
+        "list.activeSelectionBackground": "#363a4f4d",
+        "list.hoverBackground": "#363a4f",
+        "activityBar.background": "#181926",
+        "titleBar.activeBackground": "#181926",
+        "titleBar.inactiveBackground": "#1e1f30",
+        "statusBar.background": "#181926",
+        "statusBar.noFolderBackground": "#181926",
+        "panel.background": "#24273a",
+        "terminal.background": "#24273a",
+        "editorGroupHeader.tabsBackground": "#181926",
+        "tab.activeBackground": "#24273a",
+        "tab.inactiveBackground": "#12121c",
+        "breadcrumb.background": "#24273a"
+    },
+    "custom-ui-style.webview.enable": false,
+    "window.menuBarVisibility": "hidden",
+    "workbench.activityBar.location": "top",
+    "files.eol": "\n",
+    "git.confirmSync": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.renderWhitespace": "none",
+    "workbench.statusBar.visible": false,
+    "workbench.editor.showTabs": "single",
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.verticalScrollbarSize": 5,
+    "editor.scrollbar.horizontalScrollbarSize": 5,
+    "editor.scrollbar.vertical": "auto",
+    "editor.scrollbar.horizontal": "auto",
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "editor.fontFamily": "JetBrains Mono, Fira Code, 'Courier New'",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.6,
+    "editor.letterSpacing": 0.5,
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "workbench.activityBar.orientation": "hidden", // アクティビティバーを非表示
+    "workbench.sideBar.location": "left", // サイドバーの位置
+    "editor.accessibilitySupport": "off",
+    "explorer.confirmDragAndDrop": false,
+    "workbench.iconTheme": "Cursor Light Icons",
+    "glassit.alpha": 220,
+    "terminal.integrated.gpuAcceleration": "on",
+    "window.systemColorTheme": "dark",
+    "window.autoDetectColorScheme": false,
+    "window.controlsStyle": "custom",
+    "window.titleBarStyle": "custom",
+    "explorer.confirmDelete": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.agentsWindowButton.enabled": false,
+    "workbench.colorTheme": "Monokai Dimmed",
+    "editor.experimentalGpuAcceleration": "on",
+    "terminal.integrated.enableImages": true
+}
